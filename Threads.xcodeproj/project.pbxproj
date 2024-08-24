@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		34317F322C7A06B500E36D89 /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = 34317F312C7A06AB00E36D89 /* .swiftformat */; };
+		34317F342C7A06F100E36D89 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 34317F332C7A06EC00E36D89 /* .swiftlint.yml */; };
+		34317F3F2C7A07B400E36D89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34317F3A2C7A07B400E36D89 /* ContentView.swift */; };
+		34317F402C7A07B400E36D89 /* ThreadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34317F3D2C7A07B400E36D89 /* ThreadsApp.swift */; };
+		34317F412C7A07B400E36D89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34317F372C7A07B400E36D89 /* Preview Assets.xcassets */; };
+		34317F422C7A07B400E36D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34317F392C7A07B400E36D89 /* Assets.xcassets */; };
+		34317F502C7A08B100E36D89 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34317F4F2C7A08B100E36D89 /* LoginView.swift */; };
+		3494C81E2C7A0CFA0011A55A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3494C81D2C7A0CE90011A55A /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		34317F122C7A05A800E36D89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +38,19 @@
 		34317EFD2C7A05A700E36D89 /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34317F112C7A05A800E36D89 /* ThreadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34317F1B2C7A05A800E36D89 /* ThreadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34317F312C7A06AB00E36D89 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		34317F332C7A06EC00E36D89 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		34317F372C7A07B400E36D89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34317F392C7A07B400E36D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34317F3A2C7A07B400E36D89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34317F3B2C7A07B400E36D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34317F3C2C7A07B400E36D89 /* Threads.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Threads.entitlements; sourceTree = "<group>"; };
+		34317F3D2C7A07B400E36D89 /* ThreadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsApp.swift; sourceTree = "<group>"; };
+		34317F4F2C7A08B100E36D89 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3494C81D2C7A0CE90011A55A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		34317F232C7A05A800E36D89 /* Exceptions for "Threads" folder in "Threads" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 34317EFC2C7A05A700E36D89 /* Threads */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		34317EFF2C7A05A700E36D89 /* Threads */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				34317F232C7A05A800E36D89 /* Exceptions for "Threads" folder in "Threads" target */,
-			);
-			path = Threads;
-			sourceTree = "<group>";
-		};
 		34317F142C7A05A800E36D89 /* ThreadsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ThreadsTests;
@@ -88,7 +91,10 @@
 		34317EF42C7A05A700E36D89 = {
 			isa = PBXGroup;
 			children = (
-				34317EFF2C7A05A700E36D89 /* Threads */,
+				3494C81D2C7A0CE90011A55A /* .gitignore */,
+				34317F332C7A06EC00E36D89 /* .swiftlint.yml */,
+				34317F312C7A06AB00E36D89 /* .swiftformat */,
+				34317F3E2C7A07B400E36D89 /* Threads */,
 				34317F142C7A05A800E36D89 /* ThreadsTests */,
 				34317F1E2C7A05A800E36D89 /* ThreadsUITests */,
 				34317EFE2C7A05A700E36D89 /* Products */,
@@ -105,6 +111,100 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		34317F362C7A07B400E36D89 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				34317F4A2C7A086500E36D89 /* Authentication */,
+				34317F492C7A085B00E36D89 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		34317F382C7A07B400E36D89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34317F372C7A07B400E36D89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34317F3E2C7A07B400E36D89 /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				34317F442C7A07C600E36D89 /* App */,
+				34317F362C7A07B400E36D89 /* Core */,
+				34317F462C7A07D400E36D89 /* Extensions */,
+				34317F482C7A07E900E36D89 /* Models */,
+				34317F472C7A07DD00E36D89 /* Services */,
+				34317F452C7A07CD00E36D89 /* Utils */,
+				34317F382C7A07B400E36D89 /* Preview Content */,
+				34317F392C7A07B400E36D89 /* Assets.xcassets */,
+				34317F3B2C7A07B400E36D89 /* Info.plist */,
+				34317F3C2C7A07B400E36D89 /* Threads.entitlements */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
+		34317F442C7A07C600E36D89 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				34317F3D2C7A07B400E36D89 /* ThreadsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		34317F452C7A07CD00E36D89 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		34317F462C7A07D400E36D89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34317F472C7A07DD00E36D89 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		34317F482C7A07E900E36D89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34317F492C7A085B00E36D89 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				34317F3A2C7A07B400E36D89 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		34317F4A2C7A086500E36D89 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				34317F4D2C7A088400E36D89 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		34317F4D2C7A088400E36D89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34317F4F2C7A08B100E36D89 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,13 +215,12 @@
 				34317EF92C7A05A700E36D89 /* Sources */,
 				34317EFA2C7A05A700E36D89 /* Frameworks */,
 				34317EFB2C7A05A700E36D89 /* Resources */,
+				34317F2F2C7A066100E36D89 /* SwiftLint */,
+				34317F302C7A066A00E36D89 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				34317EFF2C7A05A700E36D89 /* Threads */,
 			);
 			name = Threads;
 			packageProductDependencies = (
@@ -225,6 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3494C81E2C7A0CFA0011A55A /* .gitignore in Resources */,
+				34317F342C7A06F100E36D89 /* .swiftlint.yml in Resources */,
+				34317F412C7A07B400E36D89 /* Preview Assets.xcassets in Resources */,
+				34317F422C7A07B400E36D89 /* Assets.xcassets in Resources */,
+				34317F322C7A06B500E36D89 /* .swiftformat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,11 +348,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34317F2F2C7A066100E36D89 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -x \"$(command -v /opt/homebrew/bin/swiftlint)\" ]; then\n  /opt/homebrew/bin/swiftlint --fix .\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		34317F302C7A066A00E36D89 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -x \"$(command -v /opt/homebrew/bin/swiftformat)\" ]; then\n  /opt/homebrew/bin/swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34317EF92C7A05A700E36D89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34317F502C7A08B100E36D89 /* LoginView.swift in Sources */,
+				34317F3F2C7A07B400E36D89 /* ContentView.swift in Sources */,
+				34317F402C7A07B400E36D89 /* ThreadsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Threads/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ALTCK2C4X;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Threads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -324,6 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Threads/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ALTCK2C4X;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Threads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
