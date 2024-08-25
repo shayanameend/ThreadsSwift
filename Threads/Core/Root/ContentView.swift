@@ -2,7 +2,14 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    Text("Hello, World!")
+    NavigationStack {
+      NavigationLink {
+        Text("Hello, World")
+      } label: {
+        Text("Hello, World")
+      }
+      .navigationBarTitle("Threads")
+    }
   }
 }
 
