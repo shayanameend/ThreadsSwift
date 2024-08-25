@@ -3,12 +3,13 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     NavigationStack {
-      NavigationLink {
-        Text("Hello, World")
-      } label: {
-        Text("Hello, World")
+      VStack {
+        Text("Hello, World!")
+        Spacer()
+        Text("Hello, World!")
+        Spacer()
+        Text("Hello, World!")
       }
-      .navigationBarTitle("Threads")
     }
   }
 }
